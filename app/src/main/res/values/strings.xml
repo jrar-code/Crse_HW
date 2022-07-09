@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">TareaS2DesApp</string>
+    <string name="titleName">Indique su nombre</string>
+    <string name="etNombre">Tu nombre aquí</string>
+    <string name="tvFecha">Fecha de Nacimiento</string>
+    <string name="tvTelefono">Número Telefónico</string>
+    <string name="tvEmail">Correo electrónico</string>
+    <string name="ContButton">Continuar</string>
+    <string name="tvDescripcion">Descripción del contacto</string>
+    <string name="emailex">example@example.com</string>
+    <string name="descTelefono">10 digitos</string>
+    <string name="numberExample">5555555555</string>
+    <string name="DateExample">YYYY/MM/DD</string>
+    <string name="bFecha">Ingresar Fecha</string>
+    <string name="TituloPage1">TAREA: Favor de completar sus datos</string>
+    <string name="TituloPage2">Favor de confirmar sus datos</string>
+    <string name="p2_name">Nombre</string>
+    <string name="p2_Fecha">Fecha Nac.</string>
+    <string name="p2_tel">Telefono</string>
+    <string name="p2_email">Email</string>
+    <string name="p2_Desc">Descripción</string>
+    <string name="bn_YES">Si</string>
+    <string name="nt_NO">No</string>
+    <string name="p2_Corrob">¿Los datos están correctos?</string>
+    <string name="example">example</string>
+</resources>

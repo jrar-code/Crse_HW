@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="separacionForm">70sp</dimen>
+    <dimen name="sepsmall">30sp</dimen>
+    <dimen name="mismaSeccion">10sp</dimen>
+    <dimen name="surf_elev">10sp</dimen>
+</resources>

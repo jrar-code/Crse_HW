@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Page2"
+    >
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="@string/TituloPage2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/p2_NombreA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="@string/p2_name"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_p2_Name"
+            app:layout_constraintEnd_toStartOf="@+id/tv_p2_Name" />
+
+        <TextView
+            android:id="@+id/tv_p2_Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="72dp"
+            android:hint="@string/example"
+            android:textColorHint="#546E7A"
+            app:layout_constraintStart_toStartOf="@+id/textView3"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="@string/p2_Fecha"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_p2_fecha"
+            app:layout_constraintEnd_toStartOf="@+id/tv_p2_fecha" />
+
+        <TextView
+            android:id="@+id/tv_p2_fecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:hint="@string/example"
+            android:textColorHint="#546E7A"
+            app:layout_constraintStart_toStartOf="@+id/textView3"
+            app:layout_constraintTop_toBottomOf="@+id/tv_p2_Name" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="@string/p2_tel"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_p2_tel"
+            app:layout_constraintEnd_toStartOf="@+id/tv_p2_tel" />
+
+        <TextView
+            android:id="@+id/tv_p2_tel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:hint="@string/example"
+            android:textColorHint="#546E7A"
+            app:layout_constraintStart_toStartOf="@+id/textView3"
+            app:layout_constraintTop_toBottomOf="@+id/tv_p2_fecha" />
+
+        <TextView
+            android:id="@+id/tv_p2_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:hint="@string/example"
+            android:textColorHint="#546E7A"
+            app:layout_constraintStart_toStartOf="@+id/textView3"
+            app:layout_constraintTop_toBottomOf="@+id/tv_p2_tel" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="@string/p2_email"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_p2_email"
+            app:layout_constraintEnd_toStartOf="@+id/tv_p2_email" />
+
+        <TextView
+            android:id="@+id/tv_p2_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:hint="@string/example"
+            android:textColorHint="#546E7A"
+            app:layout_constraintStart_toStartOf="@+id/textView3"
+            app:layout_constraintTop_toBottomOf="@+id/tv_p2_email" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:text="@string/p2_Desc"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_p2_desc"
+            app:layout_constraintEnd_toStartOf="@+id/tv_p2_desc" />
+
+        <Button
+            android:id="@+id/bn_YES"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bn_YES"
+            app:layout_constraintBottom_toBottomOf="@+id/bn_NO"
+            app:layout_constraintEnd_toStartOf="@+id/bn_NO"
+            app:layout_constraintHorizontal_bias="0.695"
+            app:layout_constraintStart_toStartOf="parent"
+            android:theme="@style/bn_click"/>
+
+        <Button
+            android:id="@+id/bn_NO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="@string/nt_NO"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.708"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_p2_desc"
+            android:theme="@style/bn_click"/>
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="@string/p2_Corrob"
+            app:layout_constraintBottom_toTopOf="@+id/bn_YES"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+
+
+
+</ScrollView>
